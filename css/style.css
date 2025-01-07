@@ -1,7 +1,9 @@
 :root {
-    --theme-primary-color:#DD1922ff;
+    --theme-primary-color:rgb(185, 15, 23);
+    /* --theme-primary-color:#DD1922ff; */
+    /* --theme-primary-color:#750B0C; */
     --theme-secondary-color:#FBCA37ff;
-    --theme-dark-color:#690310ff ;
+    --theme-dark-color:#750B0C ;
 }
 
 .thm-bg-primary{
@@ -343,7 +345,7 @@
     transform: translate(-50%);
     transform: rotate(45deg);
     background: var(--theme-secondary-color);
-    
+
 }
 /*** featurs End ***/
 
@@ -354,7 +356,7 @@
     width: 280px;
     height: 150px;
     top: -70%;
-    left: 50%; 
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -367,7 +369,7 @@
 }
 
 .fruite .tab-class .nav-item a.active span {
-    color: var(--bs-white) !important; 
+    color: var(--bs-white) !important;
 }
 
 .fruite .fruite-categorie .fruite-name {
@@ -540,7 +542,7 @@
 .pagination {
     display: inline-block;
 }
-  
+
 .pagination a {
     color: var(--bs-dark);
     padding: 10px 16px;
@@ -549,13 +551,13 @@
     border: 1px solid var(--theme-secondary-color);
     margin: 0 4px;
 }
-  
+
 .pagination a.active {
     background-color: var(--theme-primary-color);
     color: var(--bs-light);
     border: 1px solid var(--theme-secondary-color);
 }
-  
+
 .pagination a:hover:not(.active) {background-color: var(--theme-primary-color)}
 
 .nav.nav-tabs .nav-link.active {
