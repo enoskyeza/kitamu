@@ -48,6 +48,21 @@
 }
 
 
+/* Default for larger screens */
+.action-btn-responsive {
+    top: 0;
+    right: 25%;
+}
+
+/* For medium (md) and smaller screens */
+@media (max-width: 768px) {
+    .action-btn-responsive {
+        right: 2%;
+    }
+}
+
+
+
 
 /* PRODUCT BUTTON */
 
